@@ -20,8 +20,15 @@ def count_vowels(text):
 print(count_vowels("Python is amazing"))
 # Exercise 4
 def replace_vowels(text):
-    # Write your code here
-    pass
+    vowels = "aeiou"
+    result = ""
+    for letter in text.lower():
+        if letter in vowels:
+            result += "*"
+        else:
+            result += letter
+    return result
+print(replace_vowels("Education"))
 
 # Exercise 5
 def count_words(text):
