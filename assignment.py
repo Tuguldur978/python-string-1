@@ -2,9 +2,10 @@
 
 # Exercise 1
 def count_characters(text):
-    # Write your code here
-    pass
-
+    return len(text)
+text = input()
+print(count_characters(text))
+    
 # Exercise 2
 def remove_spaces(text):
     # Write your code here
