@@ -6,8 +6,8 @@ print(count_characters("Hello World"))
     
 # Exercise 2
 def remove_spaces(text):
-    # Write your code here
-    pass
+    return text.replace(" ", "")
+print(remove_spaces("Python is fun")
 
 # Exercise 3
 def count_vowels(text):
