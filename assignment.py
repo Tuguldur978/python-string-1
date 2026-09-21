@@ -15,7 +15,7 @@ def count_vowels(text):
     count = 0
     for letter in text.lower():
         if letter in vowels :
-            count += 
+            count += 1
     return count
 print(count_vowels("Python is amazing"))
 # Exercise 4
