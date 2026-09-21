@@ -37,6 +37,7 @@ def count_words(text):
 print(count_words("Python makes coding fun"))
 
 # Exercise 6
-def find_longest_word(text):
-    # Write your code here
-    pass
+def longest_word(text):
+    words = text.split()
+    return max(words, key=len)
+print(longest_word("Learning Python programming"))
