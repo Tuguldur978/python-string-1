@@ -1,10 +1,8 @@
 # You can remove 'pass' if you written code in the function 
-
 # Exercise 1
 def count_characters(text):
     return len(text)
-text = input()
-print(count_characters(text))
+print(count_characters("Hello World"))
     
 # Exercise 2
 def remove_spaces(text):
