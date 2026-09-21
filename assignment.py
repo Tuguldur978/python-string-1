@@ -15,3 +15,22 @@ def count_vowels(text):
         if letter in vowels :
             count += 1
     return count
+# Exercise 4
+def replace_vowels(text):
+    vowels = "aeiou"
+    result = ""
+    for letter in text.lower():
+        if letter in vowels:
+            result += "*"
+        else:
+            result += letter
+    return result
+
+# Exercise 5
+def count_words(text):
+    words = text.split()
+    return len(words)
+
+# Exercise 6
+def longest_word(text):
+    words = text.split()
