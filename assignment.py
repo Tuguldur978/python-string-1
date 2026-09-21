@@ -11,9 +11,13 @@ print(remove_spaces("Python is fun")
 
 # Exercise 3
 def count_vowels(text):
-    # Write your code here
-    pass
-
+    vowels = "aeiou"
+    count = 0
+    for letter in text.lower():
+        if letter in vowels :
+            count += 1
+    return count
+print(count_vowels("Python is amazing"))
 # Exercise 4
 def replace_vowels(text):
     # Write your code here
