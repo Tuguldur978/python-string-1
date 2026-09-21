@@ -32,8 +32,9 @@ print(replace_vowels("Education"))
 
 # Exercise 5
 def count_words(text):
-    # Write your code here
-    pass
+    words = text.split()
+    return len(words)
+print(count_words("Python makes coding fun"))
 
 # Exercise 6
 def find_longest_word(text):
